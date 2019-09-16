@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/tso/OPMI_import.owl
+
+[Source ontology]
+OPMI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OMRSE_00000007 #gender role
+includeAllChildren
+
+http://purl.obolibrary.org/obo/ENVO_00000000
+includeAllChildren
+
+http://purl.obolibrary.org/obo/OPMI_0000093 #personal information
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

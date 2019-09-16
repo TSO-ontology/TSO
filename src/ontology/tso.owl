@@ -9,11 +9,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/tso.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/ENVO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/OBI_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/OPMI_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/RO_import.owl"/>
         <dc:creator>Robert Hampshire</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
@@ -21,7 +25,8 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.01</owl:versionInfo>
+        <oboInOwl:creation_date xml:lang="en">09-15-2019</oboInOwl:creation_date>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.02</owl:versionInfo>
     </owl:Ontology>
     
 
