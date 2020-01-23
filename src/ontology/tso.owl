@@ -26,7 +26,7 @@
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
         <oboInOwl:creation_date xml:lang="en">01-23-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.04</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.05</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -264,6 +264,37 @@
         <obo:IAO_0000117>YOH</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Motor_vehicle</obo:IAO_0000119>
         <rdfs:label xml:lang="en">motor vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000010"/>
+        <obo:IAO_0000117>YOH</obo:IAO_0000117>
+        <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdh</obo:TSO_0000016>
+        <rdfs:label xml:lang="en">human powered vehicle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000018"/>
+        <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdhb</obo:TSO_0000016>
+        <rdfs:label xml:lang="en">bicycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000018"/>
+        <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdhc</obo:TSO_0000016>
+        <rdfs:label xml:lang="en">tricycle</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
