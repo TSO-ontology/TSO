@@ -6,14 +6,17 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAnnotationProperties
+includeAllAxiomsRecursively
+
+#includeAllAnnotationProperties
 

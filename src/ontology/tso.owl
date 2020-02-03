@@ -97,6 +97,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -431,6 +439,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
         <rdfs:label xml:lang="en">latency in terms of equity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000010"/>
+        <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdf</obo:TSO_0000016>
+        <rdfs:label xml:lang="en">horse drawn vehicle</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
