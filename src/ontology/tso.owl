@@ -27,8 +27,8 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
-        <oboInOwl:creation_date xml:lang="en">01-30-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.10</owl:versionInfo>
+        <oboInOwl:creation_date xml:lang="en">02-03-2020</oboInOwl:creation_date>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.11</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -392,6 +392,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000023"/>
+        <obo:IAO_0000119>https://www.vtpi.org/equity.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">transportation equity</rdfs:label>
     </owl:Class>
     
@@ -411,6 +412,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <obo:IAO_0000119>https://www.vtpi.org/equity.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">horizontal equity of transportation</rdfs:label>
     </owl:Class>
     
@@ -429,6 +431,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <obo:IAO_0000119>https://www.vtpi.org/equity.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">vertical equity of transportation</rdfs:label>
     </owl:Class>
     
@@ -438,6 +441,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <obo:IAO_0000119>https://www.vtpi.org/equity.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">latency in terms of equity</rdfs:label>
     </owl:Class>
     
