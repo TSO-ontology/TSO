@@ -454,6 +454,315 @@
         <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdf</obo:TSO_0000016>
         <rdfs:label xml:lang="en">horse drawn vehicle</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <rdfs:label xml:lang="en">fair allocation of resources</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <obo:IAO_0000118>fair opportunity of accessibility to resources</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fair opportunity of accessibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <rdfs:label xml:lang="en">reduction of adverse effect of transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000033"/>
+        <rdfs:label xml:lang="en">transportation safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000033"/>
+        <rdfs:label xml:lang="en">reduction of environmental pollution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000024"/>
+        <rdfs:label xml:lang="en">participation of all stakeholders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000031"/>
+        <rdfs:label xml:lang="en">fair allocation of infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000031"/>
+        <rdfs:label xml:lang="en">fair allocation of service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000031"/>
+        <rdfs:label xml:lang="en">fair allocation of expenditure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000037"/>
+        <rdfs:label xml:lang="en">fair allocation of roadway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000037"/>
+        <rdfs:label xml:lang="en">fair allocation of facilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000037"/>
+        <rdfs:label xml:lang="en">fair allocation of bus stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000037"/>
+        <rdfs:label xml:lang="en">fair allocation of transit station</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000032"/>
+        <rdfs:label xml:lang="en">fair opportunity of mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000032"/>
+        <rdfs:label xml:lang="en">fair opportunity of proximity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000032"/>
+        <rdfs:label xml:lang="en">fair opportunity of connectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality of accessibility to opportunity of</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">transit desert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000125"/>
+        <obo:IAO_0000115>contains bus, subway, ...</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">transit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label xml:lang="en">transportation data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000050"/>
+        <rdfs:label xml:lang="en">transportation supply data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000050"/>
+        <rdfs:label xml:lang="en">transportation demand data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000051"/>
+        <rdfs:label xml:lang="en">number of bus stops</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000051"/>
+        <rdfs:label xml:lang="en">transportation frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000051"/>
+        <rdfs:label xml:lang="en">transportation coverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000052"/>
+        <rdfs:label xml:lang="en">number of household who needs to drive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000051"/>
+        <rdfs:label xml:lang="en">sidewalk and bike route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000052"/>
+        <rdfs:label xml:lang="en">number of transit dependents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000050"/>
+        <rdfs:label xml:lang="en">accessibility rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000059"/>
+        <rdfs:label xml:lang="en">accessibility of bus rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000051"/>
+        <rdfs:label xml:lang="en">number of people who need transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000061"/>
+        <rdfs:label xml:lang="en">no of drivers - no of young adult below 16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000052"/>
+        <rdfs:label xml:lang="en">no of transit-dependent population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">reason for traveling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000064"/>
+        <rdfs:label xml:lang="en">home based work</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
