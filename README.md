@@ -5,7 +5,7 @@ The Transportation System Ontology (TSO) is a community-driven open-source ontol
 
 ### TSO Developers:
 
-The TSO is initiated by researchers at the University of Michigan, Ann Arbor, MI, USA. The first version of TSO was developed by [Dr. Yongqun Oliver He](http://www.hegroup.org), Associate Professor, University of Michigan Medical School, Ann Arbor, MI, USA. Many researchers in the University of Michigan Transportation Reserach Institute [(UMTRI)](http://www.umtri.umich.edu/) participated in the TSO development and application study.  
+The TSO is initiated by researchers at the University of Michigan, Ann Arbor, MI, USA. The first version of TSO was developed by [Dr. Yongqun Oliver He](http://www.hegroup.org/aboutUs/Oliver.html), Associate Professor, University of Michigan Medical School, Ann Arbor, MI, USA. Many researchers in the University of Michigan Transportation Reserach Institute [(UMTRI)](http://www.umtri.umich.edu/) participated in the TSO development and application study.  
 
 Currently the TSO development team includes many experts from different fields:
 
