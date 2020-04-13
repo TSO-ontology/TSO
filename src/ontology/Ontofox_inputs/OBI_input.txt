@@ -8,6 +8,12 @@ OBI
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
+http://purl.obolibrary.org/obo/IAO_0000005 # objective specification
+http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
+http://purl.obolibrary.org/obo/IAO_0000010 #software
+http://purl.obolibrary.org/obo/IAO_0000064 # algorithm
+http://purl.obolibrary.org/obo/IAO_0000007 # action specification 
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0100026 #organism
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity

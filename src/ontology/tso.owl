@@ -21,14 +21,15 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/RO_import.owl"/>
         <dc:creator>Aditi Misra</dc:creator>
         <dc:creator>Andong Chen</dc:creator>
+        <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator>Robert Hampshire</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
         <dc:description xml:lang="en">The Transportation System Ontology (TSO) is a community-based ontology developed to support open transportation and transportation-related knowledge and data representation, standardization and integration.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
-        <oboInOwl:creation_date xml:lang="en">02-03-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.11</owl:versionInfo>
+        <oboInOwl:creation_date xml:lang="en">04-13-2020</oboInOwl:creation_date>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.22</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -82,6 +83,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000008">
         <rdfs:label xml:lang="en">has start time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000067">
+        <rdfs:label xml:lang="en">has characteristics</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -391,7 +400,7 @@
     <!-- http://purl.obolibrary.org/obo/TSO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000069"/>
         <obo:IAO_0000119>https://www.vtpi.org/equity.pdf</obo:IAO_0000119>
         <rdfs:label xml:lang="en">transportation equity</rdfs:label>
     </owl:Class>
@@ -606,8 +615,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A quality of accessibility to opportunity of</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transit desert is an area with limited transportation supply. Transit deserts are generally characterized by poor public transportation options and possibly poor bike, sidewalk, or road infrastructure.[3] The lack of transportation options present in transit deserts may have negative effects of people’s health, job prospects, and economic mobility.</obo:IAO_0000115>
+        <obo:IAO_0000117>Aditi Misra, Andong Chen, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Transit_desert</obo:IAO_0000119>
         <rdfs:label xml:lang="en">transit desert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000059"/>
+        <rdfs:label xml:lang="en">high accessibility of transit</rdfs:label>
     </owl:Class>
     
 
@@ -707,7 +733,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000050"/>
-        <rdfs:label xml:lang="en">accessibility rate</rdfs:label>
+        <obo:IAO_0000115>A transportation data that represent the accessbility of a transit to the neighboring passages</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">accessibility of transit</rdfs:label>
     </owl:Class>
     
 
@@ -716,7 +743,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000059"/>
-        <rdfs:label xml:lang="en">accessibility of bus rate</rdfs:label>
+        <rdfs:label xml:lang="en">low accessibility of transit</rdfs:label>
     </owl:Class>
     
 
@@ -762,6 +789,35 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000064"/>
         <rdfs:label xml:lang="en">home based work</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000059"/>
+        <rdfs:label xml:lang="en">moderate accessibility of transit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000002"/>
+        <obo:IAO_0000115>a road vehicle designed to carry many passengers.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Bus</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">bus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">transportation purpose</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
