@@ -14,6 +14,8 @@ Currently the TSO development team includes many experts from different fields:
 
 Mr. Andong Chen, M.S., Research associate at the University of Michigan UMTRI.  
 
+Mr. Edison Ong, a PhD candidate in Bioinformatics. 
+
 Mr. Sam Smith, a retired engineer at Detroit, MI. 
 
 Everyone who would like to contribute to the CIDO development is welcome to join our development team. Please contact any of us if you are interested. Thanks. 
