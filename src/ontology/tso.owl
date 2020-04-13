@@ -11,6 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/tso.owl">
@@ -18,6 +19,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/NCBITaxon_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/OBI_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/OPMI_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/PATO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/tso/RO_import.owl"/>
         <dc:creator>Aditi Misra</dc:creator>
         <dc:creator>Andong Chen</dc:creator>
@@ -29,7 +31,7 @@
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
         <oboInOwl:creation_date xml:lang="en">04-13-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.22</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -95,6 +97,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TSO_0000074 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000074">
+        <rdfs:label xml:lang="en">has start location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000075 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000075">
+        <rdfs:label xml:lang="en">has end location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000076 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000076">
+        <rdfs:label xml:lang="en">has end time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000077 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000077">
+        <rdfs:label xml:lang="en">uses vehicle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -117,6 +151,19 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000076 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000076">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -818,6 +865,51 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <rdfs:label xml:lang="en">transportation purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:label xml:lang="en">transit stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+        <rdfs:label xml:lang="en">transit start stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+        <rdfs:label xml:lang="en">transit end stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+        <rdfs:label xml:lang="en">bus stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000004"/>
+        <rdfs:label xml:lang="en">public transportation</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

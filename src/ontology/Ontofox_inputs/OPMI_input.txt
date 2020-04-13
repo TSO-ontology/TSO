@@ -5,6 +5,10 @@ http://purl.obolibrary.org/obo/tso/OPMI_import.owl
 OPMI
 
 [Low level source term URIs]
+
+http://purl.obolibrary.org/obo/OMRSE_00000076 # household
+http://purl.obolibrary.org/obo/OBI_0000181 # population
+
 http://purl.obolibrary.org/obo/OMRSE_00000024 #role in human social processes
 includeAllChildren
 
