@@ -21,6 +21,11 @@ includeAllChildren
 http://purl.obolibrary.org/obo/OPMI_0000093 #personal information
 includeAllChildren
 
+http://purl.obolibrary.org/obo/BFO_0000038 # one-dimensional temporal region
+includeAllChildren
+
+http://purl.obolibrary.org/obo/BFO_0000148 # zero-dimensional temporal region
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
 

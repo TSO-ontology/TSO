@@ -31,7 +31,7 @@
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
         <oboInOwl:creation_date xml:lang="en">04-13-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.24</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -125,6 +125,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000077">
         <rdfs:label xml:lang="en">uses vehicle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000079 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TSO_0000079">
+        <rdfs:label xml:lang="en">has passenger</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -227,6 +235,39 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000074"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000075"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000076"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000079"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>the movement of human from one location to another.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Andong Chen, Aditi Misra</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Transport</obo:IAO_0000119>
         <rdfs:label xml:lang="en">human transportation</rdfs:label>
     </owl:Class>
     
@@ -377,6 +418,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000010"/>
         <obo:IAO_0000117>YOH</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human-powered_transport</obo:IAO_0000119>
         <obo:TSO_0000016>https://trt.trb.org/trt.asp?NN=Qbdh</obo:TSO_0000016>
         <rdfs:label xml:lang="en">human powered vehicle</rdfs:label>
     </owl:Class>
@@ -910,6 +952,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TSO_0000004"/>
         <rdfs:label xml:lang="en">public transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TSO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TSO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115>A timestamp is a sequence of characters or encoded information identifying when a certain event occurred, usually giving date and time of day, sometimes accurate to a small fraction of a second.</obo:IAO_0000115>
+        <obo:IAO_0000117>Andong Chen, Aditi Misra, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">timestamp</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
