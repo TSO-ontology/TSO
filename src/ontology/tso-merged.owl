@@ -24,8 +24,8 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">TSO focuses on the area of transportation system.</dc:subject>
         <dc:title xml:lang="en">TSO: Transportation System Ontology</dc:title>
-        <oboInOwl:creation_date xml:lang="en">04-13-2020</oboInOwl:creation_date>
-        <owl:versionInfo xml:lang="en">Vision Release: 0.0.25</owl:versionInfo>
+        <oboInOwl:creation_date xml:lang="en">04-14-2020</oboInOwl:creation_date>
+        <owl:versionInfo xml:lang="en">Vision Release: 0.0.26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -9354,12 +9354,18 @@ last accessed June 30, 2015</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TSO_0000067"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TSO_0000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A transit desert is an area with limited transportation supply. Transit deserts are generally characterized by poor public transportation options and possibly poor bike, sidewalk, or road infrastructure.[3] The lack of transportation options present in transit deserts may have negative effects of people’s health, job prospects, and economic mobility.</obo:IAO_0000115>
-        <obo:IAO_0000117>Aditi Misra, Andong Chen, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Aditi Misra, Andong Chen, Edison Ong, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Transit_desert</obo:IAO_0000119>
         <rdfs:label xml:lang="en">transit desert</rdfs:label>
     </owl:Class>
@@ -10213,8 +10219,8 @@ This interpretation is *not* the same as an at-all-times relation
         <rdfs:comment>DrOn contains content developed by the National Library of Medicine in RxNorm.  In creating DrOn, we have used RxNorm content only with SAB = RXNORM.</rdfs:comment>
         <dc:license xml:lang="en">https://creativecommons.org/licenses/by/3.0/</dc:license>
         <dc:creator>Eric Joseph</dc:creator>
-        <rdfs:comment xml:lang="en">When citing DrOn, use the permanent URL of the ontology: http://purl.obolibrary.org/obo/dron.owl.  When referencing a specific component of the DrOn, such as a class, object property, annotation property, or individual, use the Uniform Resource Identifier (URI) of that component.</rdfs:comment>
         <dc:creator>Mathias Brochhausen</dc:creator>
+        <rdfs:comment xml:lang="en">When citing DrOn, use the permanent URL of the ontology: http://purl.obolibrary.org/obo/dron.owl.  When referencing a specific component of the DrOn, such as a class, object property, annotation property, or individual, use the Uniform Resource Identifier (URI) of that component.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/envo.owl">
         <dc:creator>http://orcid.org/0000-0002-8343-612X</dc:creator>
@@ -10223,8 +10229,8 @@ This interpretation is *not* the same as an at-all-times relation
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/chemical_concentration.owl&gt;) VersionIRI(&lt;null&gt;))) [Axioms: 186 Logical Axioms: 30]</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/entity_quality_location.owl&gt;) VersionIRI(&lt;null&gt;))) [Axioms: 40 Logical Axioms: 6]</rdfs:comment>
         <dc:creator>http://orcid.org/0000-0002-4366-3088</dc:creator>
-        <dc:creator>http://orcid.org/0000-0002-6601-2165</dc:creator>
         <dc:creator>http://orcid.org/0000-0003-1604-1512</dc:creator>
+        <dc:creator>http://orcid.org/0000-0002-6601-2165</dc:creator>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(OntologyIRI(&lt;http://purl.obolibrary.org/obo/envo/modules/entity_attribute_location.owl&gt;) VersionIRI(&lt;null&gt;))) [Axioms: 132 Logical Axioms: 23]</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO is an ontology which represents knowledge about environments,environmental processes, ecosystems, habitats, and related entities. It interoperates with other ontologies in the OBO Foundry and Library. 
 
@@ -10244,11 +10250,11 @@ Please see www.environmentontology.org for more information and citations.</rdfs
         <dc:contributor>Sydni Joubran</dc:contributor>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <obo:IAO_0000116 xml:lang="en">Product version</obo:IAO_0000116>
-        <dc:creator>Sirarat Sarntivijai</dc:creator>
         <dc:contributor>Darrell R. Abernethy</dc:contributor>
+        <dc:creator>Sirarat Sarntivijai</dc:creator>
         <dc:creator>Ling Wan</dc:creator>
-        <dc:creator xml:lang="en">Shelley Zhang</dc:creator>
         <dc:creator>Rebecca Racz</dc:creator>
+        <dc:creator xml:lang="en">Shelley Zhang</dc:creator>
         <dc:creator>Liwei Wang</dc:creator>
         <dc:creator xml:lang="en">Meiu Wong</dc:creator>
         <dc:description xml:lang="en">The Ontology of Adverse Eventsy (OAE) is a biomedical ontology in the domain of adverse events. OAE aims to standardize adverse event annotation, integrate various adverse event data, and support computer-assisted reasoning.  OAE is a community-based ontology. Its development follows the OBO Foundry principles. Vaccine adverse events have been used as an initial testing use case. OAE also studies adverse events associated with the administration of drug and nutritional products, the operation of surgeries, and the usage of medical devices, etc.</dc:description>
@@ -10257,8 +10263,8 @@ Please see www.environmentontology.org for more information and citations.</rdfs
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:contributor>Luca Toldo</dc:contributor>
         <dc:creator>Noemi Garg</dc:creator>
-        <dc:creator>Edison Ong</dc:creator>
         <dc:contributor>Keith Burkhart</dc:contributor>
+        <dc:creator>Edison Ong</dc:creator>
         <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
         <dc:contributor>Izabela Birsanescu</dc:contributor>
         <dc:creator>Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
@@ -10283,8 +10289,8 @@ Please see www.environmentontology.org for more information and citations.</rdfs
         <dc:creator>Sivaram Arabandi</dc:creator>
         <dc:creator>Lindsay Cowell</dc:creator>
         <dc:date>2009-08-07</dc:date>
-        <dc:creator>Richard Scheuermann</dc:creator>
         <dc:creator>Cornelius Rosse</dc:creator>
+        <dc:creator>Richard Scheuermann</dc:creator>
         <dc:creator>Anand Kumar</dc:creator>
         <dc:creator>Barry Smith</dc:creator>
         <rdfs:comment>The Ontology for General Medical Science (OGMS) is based on the papers Toward an Ontological Treatment of Disease and Diagnosis and On Carcinomas and Other Pathological Entities. The ontology attempts to address some of the issues raised at the Workshop on Ontology of Diseases (Dallas, TX). OGMS was formerly called the clinical phenotype ontology. Terms from OGMS hang from the Basic Formal Ontology.
@@ -10299,11 +10305,11 @@ The discussion group is http://groups.google.com/group/ogms-discuss
 If you are interested in participating in the development of OGMS, please send email to albertgoldfain@gmail.com. Be sure to include a google-account username with your request (this will be the username associated with a gmail address).</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/omrse.owl">
-        <dc:creator xml:lang="en">William Hogan</dc:creator>
         <rdfs:comment xml:lang="en">This ontology grew out of efforts to represent the reality underlying the demographic information required by the US federal government&apos;s &quot;meaningful use&quot; criteria for electronic medical records and a presentation by Dr. William Hogan at the Electronic Health Record of the Future conference in Buffalo, NY http://ontology.buffalo.edu/EHR/Demographics_Hogan_Buffalo_2010_09_22.ppt</rdfs:comment>
+        <dc:creator xml:lang="en">William Hogan</dc:creator>
+        <dc:creator>Amanda Hicks</dc:creator>
         <owl:versionInfo>2017-06-08</owl:versionInfo>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <dc:creator>Amanda Hicks</dc:creator>
         <dc:creator xml:lang="en">Swetha Garimalla</dc:creator>
         <dc:contributor>Daniel Welch</dc:contributor>
         <rdfs:label xml:lang="en">The Ontology of Medically Related Social Entities</rdfs:label>
@@ -10318,8 +10324,8 @@ If you are interested in participating in the development of OGMS, please send e
         <dc:subject xml:lang="en">OPMI subject: Precision medicine and related investigations</dc:subject>
         <terms:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</terms:license>
         <dc:title xml:lang="en">OPMI: Ontology of Precision Medicine and Investigation</dc:title>
-        <dc:contributor>Matthias Kretzler</dc:contributor>
         <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:contributor>Matthias Kretzler</dc:contributor>
         <dc:contributor xml:lang="en">Sean Mooney</dc:contributor>
         <dc:creator xml:lang="en">Fred Dowd</dc:creator>
         <dc:creator>Qingliang Leon Li</dc:creator>
